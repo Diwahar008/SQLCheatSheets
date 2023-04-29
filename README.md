@@ -2,9 +2,9 @@
 
 **creating new databases**
 
-'''sql
+```sql
 create databases new();
-'''
+```
 
 
 
