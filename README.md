@@ -1,4 +1,4 @@
-#**** cheetsheat for  SQL ****
+# cheetsheat for  SQL 
 
 **creating new databases**
 
