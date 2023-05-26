@@ -30,4 +30,18 @@ insert into table_name() values();
 ```sql
 delete table table_name;
 ```
+**Queries with constraints**
+```sql
+SELECT column, another_column, …
+FROM mytable
+WHERE condition
+    AND/OR another_condition
+    AND/OR …;
+```   
+
+ 1.=, !=, < <=, >, >=   col_name != 4
+ 2.BETWEEN … AND …      col_name BETWEEN 1.5 AND 10.5
+ 3.NOT BETWEEN … AND    col_name NOT BETWEEN 1 AND 10
+ 4.IN (…)	              col_name IN (2, 4, 6)
+ 5.NOT IN (…)           col_name NOT IN (1, 3, 5)
 
