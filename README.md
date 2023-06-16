@@ -39,7 +39,7 @@ WHERE condition
     AND/OR …;
 ```   
 
- 1.=, !=, < <=, >, >=   col_name != 4
+ 1.=, !=, < <=, >, >=   col_name != 4<br>
  2.BETWEEN … AND …      col_name BETWEEN 1.5 AND 10.5
  3.NOT BETWEEN … AND    col_name NOT BETWEEN 1 AND 10
  4.IN (…)	              col_name IN (2, 4, 6)
