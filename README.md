@@ -38,7 +38,7 @@ WHERE condition
     AND/OR another_condition
     AND/OR …;
 ```   
-
+ | Operator                |    SQL Example                 |
  | ----------------------- |  ----------------------------- |
  | 1.`=, !=, < <=, >, >=`  | col_name != 4 |
  | 2.`BETWEEN … AND … `    | col_name BETWEEN 1.5 AND 10.5 |
