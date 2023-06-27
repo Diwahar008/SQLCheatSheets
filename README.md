@@ -45,12 +45,15 @@ WHERE condition
  | 3.`NOT BETWEEN … AND`   | col_name NOT BETWEEN 1 AND 10 | 
  | 4.`IN (…)`	           | col_name IN (2, 4, 6) |
  | 5.`NOT IN (…)`          | col_name NOT IN (1, 3, 5) |
- | 1.`=`                   | col_name = "abc" |
- | 2.`BETWEEN … AND … `    | col_name BETWEEN 1.5 AND 10.5 |
- | 3.`NOT BETWEEN … AND`   | col_name NOT BETWEEN 1 AND 10 | 
- | 4.`IN (…)`	           | col_name IN (2, 4, 6) |
- | 5.`NOT IN (…)`          | col_name NOT IN (1, 3, 5) |
- 
+ | 6.`=`                   | col_name = "abc" |
+ | 7.`!= or <>`            | col_name != "abcd" |
+ | 8.`LIKE`                | col_name LIKE "ABC" | 
+ | 9.`NOT LIKE`	           | col_name NOT LIKE "ABCD" |
+ | 10.`%`                  | col_name LIKE "%AT%" (matches "AT", "ATTIC", "CAT" or even "BATS") |
+ | 11.`_`                  | col_name LIKE "AN_" (matches "AND", but not "AN") |
+ | 12. `IN (…)`            | col_name NOT IN ("D", "E", "F") |
+ | 13. `NOT IN (…)`        | col_name NOT IN ("D", "E", "F") |
+
 
 **Filtering and sorting Query results**
 ```
