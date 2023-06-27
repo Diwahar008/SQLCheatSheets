@@ -45,7 +45,7 @@ WHERE condition
  | 3.`NOT BETWEEN … AND`   | col_name NOT BETWEEN 1 AND 10 | 
  | 4.`IN (…)`	           | col_name IN (2, 4, 6) |
  | 5.`NOT IN (…)`          | col_name NOT IN (1, 3, 5) |
- | 1.`=, !=, < <=, >, >=`  | col_name != 4 |
+ | 1.`=`                   | col_name = "abc" |
  | 2.`BETWEEN … AND … `    | col_name BETWEEN 1.5 AND 10.5 |
  | 3.`NOT BETWEEN … AND`   | col_name NOT BETWEEN 1 AND 10 | 
  | 4.`IN (…)`	           | col_name IN (2, 4, 6) |
