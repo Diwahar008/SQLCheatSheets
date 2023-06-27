@@ -51,7 +51,7 @@ WHERE condition
  | 9.`NOT LIKE`	           | col_name NOT LIKE "ABCD" |
  | 10.`%`                  | col_name LIKE "%AT%" (matches "AT", "ATTIC", "CAT" or even "BATS") |
  | 11.`_`                  | col_name LIKE "AN_" (matches "AND", but not "AN") |
- | 12. `IN (…)`            | col_name NOT IN ("D", "E", "F") |
+ | 12. `IN (…)`            | col_name IN ("D", "E", "F") |
  | 13. `NOT IN (…)`        | col_name NOT IN ("D", "E", "F") |
 
 
