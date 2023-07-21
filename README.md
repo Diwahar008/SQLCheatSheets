@@ -54,6 +54,13 @@ WHERE condition
  | 12. `IN (…)`            | col_name IN ("D", "E", "F") |
  | 13. `NOT IN (…)`        | col_name NOT IN ("D", "E", "F") |
 
+Since the DISTINCT keyword will blindly remove duplicate rows, we will learn in a future lesson how to discard duplicates based on specific columns using grouping and the GROUP BY clause.
+
+```
+SELECT DISTINCT column, another_column, …
+FROM mytable
+WHERE condition(s);
+```
 
 **Filtering and sorting Query results**
 
